@@ -1,0 +1,166 @@
+body {
+  margin: 0; 
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.lp-main {
+  background-image: linear-gradient(#4998dc,#4e62c1);
+  padding: 30px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+
+
+.lp-main-font {
+  width: 50%;
+  color: aliceblue;
+}
+
+.lp-main-img {
+  width: 248px;
+  
+}
+
+.lp-btn-L {
+  background-color: #444444;
+  border: none;
+  color: whitesmoke;
+  padding: 15px 32px;
+  font-size: 16px;
+}
+
+.lp-white-ad {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.lp-blue-offer {
+  background-color: #4e62c1;
+  padding: 30px;
+}
+
+.lp-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.lp-icon-wrapper i {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  padding-top: 25px;
+  box-sizing: border-box;
+  color: #4e62c1;
+}
+
+.lp-icon-wrapper div {
+  padding: 30px;
+  margin: 10px
+}
+
+.lp-blue-header {
+  text-align: center; 
+  padding: 10px;
+  color: aliceblue;
+}
+
+.lp-icon-wrapper p {
+  color: aliceblue;
+  font-size: 16px;
+}
+
+.lp-white-ad2 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+
+.img-wrapper > span {
+  display: inline-block;
+  width: 100%;
+}
+
+.tail-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 30px
+}
+
+.tail-wrapper i {
+  background-color: #4e62c1;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  padding-top: 25px;
+  box-sizing: border-box;
+  color: whitesmoke; 
+  margin-left: 30px
+
+}
+
+
+
+.portfolio-container {
+  text-align: left;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.portfolio-item1 {
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/portfolio-1.jpg);
+  background-size: cover;
+}
+
+.portfolio-item2 {
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../img/portfolio-2.jpg);
+  background-size: cover;
+}
+
+.portfolio-item3 {
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../img/portfolio-3.jpg);
+  background-size: cover;
+}
+
+.portfolio-item4 {
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../img/portfolio-4.jpg);
+  background-size: cover;
+}
+
+.portfolio-text {
+  color: whitesmoke;
+  padding: 50px;
+  width: 100%;
+}
+
+@media screen and (max-width:992px) {
+  .portfolio-item1, .portfolio-item2, .portfolio-item3, .portfolio-item4  {
+    float: none;
+    width: 100%;
+  }
+  
+}
